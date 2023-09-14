@@ -6,7 +6,10 @@ Transform data between different data schemas
 
 IFRS -> EFRAG
 Python code to transform between a simulated and abbreviated IFRS schema to a simulated and abbreviated EFRAG schema
+
 https://github.com/Open-Earth-Foundation/data_harmonization/blob/main/ifrs_to_efrag_poc.py
+
+Matching
 
 IFRS periodOfReport.yearOfReport            -->  EFRAG reportingScope.reportingYear  
 IFRS periodOfReport.yearOfBaseline          -->  EFRAG reportingScope.baselineYear  
@@ -25,7 +28,10 @@ IFRS grossScope3GHGEmissions.value     -->  EFRAG scope3GHGEmissionCategories.to
 
 EFRAG -> IFRS
 Python code to transform between a simulated and abbreviated EFRAG schema to a simulated and abbreviated IFRS schema
+
 https://github.com/Open-Earth-Foundation/data_harmonization/blob/main/efrag_to_ifrs_poc.py
+
+Matching
 
 EFRAG                                          IFRS
 -----                                          ----
